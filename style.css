@@ -28,3 +28,11 @@
   transition: transform .2s;
 }
 .btn:hover, .btn:focus-visible { background: var(--hover); border-color: var(--hover); color: #fff; transform: scale(1.1, 1.1); }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
