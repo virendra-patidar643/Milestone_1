@@ -1,0 +1,30 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box;}
+
+:root {
+  --primary: #064B8F;
+  --secondary: #55B947;
+  --bg: #F4FAFD;
+  --card: #FFFFFF;
+  --text: #17324D;
+  --text-muted: #60758A;
+  --border: #D9E7EF;
+  --hover: #3E9635;
+  --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --font-head: "Fraunces", Georgia, serif;
+  --font-body: "Nunito Sans", Arial, sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  margin: .5rem .75rem .5rem 0;
+  padding: .75rem 1.5rem;
+  border: 2px solid var(--secondary);
+  border-radius: 6px;
+  background: var(--secondary);
+  text-decoration: none;
+  color: #fff;
+  font: 700 1rem var(--font-body);
+  cursor: pointer;
+  transition: transform .2s;
+}
+.btn:hover, .btn:focus-visible { background: var(--hover); border-color: var(--hover); color: #fff; transform: scale(1.1, 1.1); }
